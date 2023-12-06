@@ -4,22 +4,22 @@
 
 Utilizando pela primeira vez a biblioteca Tkinter, criei uma calculadora de média semestral utilizando a lógica de cálculo da FIAP, onde:
 
-#Checkpoints:
+**Checkpoints**:
 Cada matéria tem 3 checkpoints e cada professor define se é um trabalho, prova ou projeto.
 A menor nota entre os 3 checkpoints é descartada.
 A média é calculada com as duas notas restantes.
 
-#Challenge:
+**Challenge**:
 Dividido em 2 sprints durante o semestre.
 Os alunos trabalham em um projeto com uma empresa terceira.
 A média é calculada entre as notas das duas sprints.
 
-#Global Solution:
+**Global Solution**:
 Novo problema proposto por uma empresa terceira para cada matéria.
 Cada professor define sua prova relacionado ao tema estudado no semestre e o problema proposto.
 A nota é considerada como uma única avaliação por matéria.
 
-#Pesos:
+**Pesos**:
 Para calcular a média final:
 Somamos a média dos checkpoints e das sprints do challenge e multiplicamos por 40%.
 A Global Solution é multiplicada por 60% diretamente.
