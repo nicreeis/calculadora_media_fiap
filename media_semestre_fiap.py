@@ -24,6 +24,11 @@ def media_semestre():
 
     total = np.sum([media_peso1, calculo_gs])   
 
+    E8.config(state='normal')
+    E8.delete(0, END)
+    E8.insert(END, str(total))
+    E8.config(state='readonly')
+    
 def limpar_campos():
     for entry in [E1, E2, E3, E4, E5, E6, E8]:
         entry.delete(0, END)
